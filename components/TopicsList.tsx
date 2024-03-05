@@ -3,7 +3,7 @@ import RemoveButton from "./RemoveButton"
 
 const getTopics = async () => {
  try {
-  const res = await fetch("https://crud-5e31oeu5f-jeffs-projects-2f8cb560.vercel.app/api/topics", {
+  const res = await fetch("https://crud-app-gamma-umber.vercel.app/api/topics", {
    cache: "no-store"
   })
   if (!res.ok) {
