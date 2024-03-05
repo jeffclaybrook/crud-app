@@ -14,7 +14,7 @@ const RemoveButton = ({
   const confirmed = confirm("Are you sure?")
 
   if (confirmed) {
-   const res = await fetch(`http://localhost:3000/api/topics?id=${id}`, {
+   const res = await fetch(`https://crud-5e31oeu5f-jeffs-projects-2f8cb560.vercel.app/api/topics?id=${id}`, {
     method: "DELETE"
    })
 

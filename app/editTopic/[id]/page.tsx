@@ -2,7 +2,7 @@ import EditTopicForm from "@/components/EditTopicForm"
 
 const getTopicById = async (id: string) => {
  try {
-  const res = await fetch(`http://localhost:3000/api/topics/${id}`, {
+  const res = await fetch(`https://crud-5e31oeu5f-jeffs-projects-2f8cb560.vercel.app/api/topics/${id}`, {
    cache: "no-store"
   })
   if (!res.ok) {

@@ -15,7 +15,7 @@ const AddTopic = () => {
    alert("Title and description required")
   }
   try {
-   const res = await fetch(`http://localhost:3000/api/topics`, {
+   const res = await fetch(`https://crud-5e31oeu5f-jeffs-projects-2f8cb560.vercel.app/api/topics`, {
     method: "POST",
     headers: {
      "Content-Type": "application/json"
