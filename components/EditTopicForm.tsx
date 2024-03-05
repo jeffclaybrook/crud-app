@@ -20,7 +20,7 @@ const EditTopicForm = ({
  const handleSubmit = async (e: any) => {
   e.preventDefault()
   try {
-   const res = await fetch(`https://crud-app-gamma-umber.vercel.app/api/topics/${id}`, {
+   const res = await fetch(`http://localhost:3000/api/topics/${id}`, {
     method: "PUT",
     headers: {
      "Content-Type": "application/json"
